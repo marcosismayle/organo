@@ -1,0 +1,31 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6278f7;
+    padding:8vh 4vh;
+}
+
+.social-media img {
+    margin-right: 1em;
+    width: 15px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.texto {
+    color: #FFF;
+}
+
+@media only screen and (max-width: 36rem) {
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-top: 2em;
+    }
+}
